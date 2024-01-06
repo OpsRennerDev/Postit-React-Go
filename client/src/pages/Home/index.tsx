@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   if (!post?.length) {
-    return <div className="loading">Loading...</div>; // ou qualquer indicador de carregamento desejado
+    return <div className="loading">Carregando...</div>; // ou qualquer indicador de carregamento desejado
   }
   return(
     <>
